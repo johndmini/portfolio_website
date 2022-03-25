@@ -3,8 +3,8 @@ import { Typography, Box } from '@mui/material'
 
 export default function About() {
     return(
-        <Box id="about" sx={{ display: 'flex', justifyContent: 'center', backgroundColor: '#2B2B2B', paddingTop: '50px', paddingBottom: '0', color: '#7A7A7A'}}>
-            <Box sx={{ textAlign: 'center' }}>
+        <Box id="about" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#2B2B2B', padding: '50px', color: '#7A7A7A'}}>
+            <Box sx={{ textAlign: 'center', marginRight: '80px' }}>
                 <img className='profile-pic' src='./profile.jpg' alt=''/>
                 <Typography variant='h5' color='white'>Contact Details</Typography>
                 <Typography variant='p'>johndavid.p.delgado@gmail.com</Typography>

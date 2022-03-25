@@ -22,7 +22,7 @@
 }
 
 .profile-pic {
-    height: 40%;
+    height: 300px;
     object-fit: contain;
     border-radius: 50px;
 }
