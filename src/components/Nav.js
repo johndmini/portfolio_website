@@ -8,7 +8,7 @@ export default function Nav() {
             <Button href='#about'>ABOUT</Button>
             <Button>PORTFOLIO</Button>
             <Button href='#technical'>TECHNICAL & EDUCATION</Button>
-            <Button>RECOMMENDATION</Button>
+            <Button disabled>RECOMMENDATION</Button>
         </ButtonGroup>
     )
 }
