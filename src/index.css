@@ -26,3 +26,7 @@
     object-fit: contain;
     border-radius: 50px;
 }
+
+.tech-icons{
+    max-width: 150px;
+}

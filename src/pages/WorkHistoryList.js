@@ -1,9 +1,9 @@
 import React from 'react'
-import Work from '../components/work'
-import data from '../components/workHistory'
+import Work from '../components/Work'
+import data from '../components/WorkHistoryData'
 import { Typography, Box } from '@mui/material'
 
-export default function Technical() {
+export default function WorkHistory() {
 
     const workHistory = data.map(work => 
         <Work
@@ -12,13 +12,13 @@ export default function Technical() {
         />
         )
     return(
-        <Box sx={{ display: 'flex', justifyContent: 'center', background: 'linear-gradient(50deg, #0a2934 , #97a1b0 60%)' }}>
-            <Box sx={{ color: '#d5d9e4' }}>
+        <Box id='technical' sx={{ display: 'flex', justifyContent: 'center', background: '#206c83' }}>
+            <Box sx={{ color: '#d5d9e4',  mt: '50px' }}>
                 <Typography variant='h6'>
                     <u>Work History</u>
                 </Typography>
             </Box>
-            <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '50%' }}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '50%', mt: '50px' }}>
                 <Box sx={{ mb: '15px', color: '#d5d9e4' }}>
                     <Typography variant="h5">
                         United States Army
