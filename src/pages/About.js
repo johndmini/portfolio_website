@@ -5,7 +5,7 @@ export default function About() {
     return(
         <Box id="about" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#2B2B2B', padding: '50px', color: '#7A7A7A'}}>
             <Box sx={{ textAlign: 'center', marginRight: '80px' }}>
-                <img className='profile-pic' src='./profile.jpg' alt=''/>
+                <img className='profile-pic' src='./images/profile.jpg' alt=''/>
                 <Typography variant='h5' color='white'>Contact Details</Typography>
                 <Typography variant='p'>johndavid.p.delgado@gmail.com</Typography>
             </Box>
