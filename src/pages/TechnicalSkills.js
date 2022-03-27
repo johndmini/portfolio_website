@@ -1,6 +1,6 @@
 import React from 'react'
 import skillsData from '../components/SkillsListData'
-import Skill from '../components/Skill'
+import Skill from '../components/SkillTemplate'
 import { Typography, Box } from '@mui/material'
 
 export default function Skills() {
