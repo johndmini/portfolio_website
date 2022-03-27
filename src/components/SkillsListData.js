@@ -17,7 +17,7 @@ const skillsData =[
     {
         id: 4,
         title: 'Mongo DB',
-        img: './images/mongodb.svg'
+        img: './images/mongodb-nobg.png'
     }
 ]
 
