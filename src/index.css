@@ -1,40 +1,30 @@
 .nav-container {
-    background: url('./calculated-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow:inset 0 0 0 2000px rgba(73, 80, 87, .5);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#nav {
-    position: absolute;
-    top: 2rem;
-}
-
-#to-about {
-    position: absolute;
-    bottom: 2rem;
+  background: url('./calculated-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgba(73, 80, 87, 0.5);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-pic {
-    height: 300px;
-    object-fit: contain;
-    border-radius: 50px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 50px;
 }
 
-.tech-icons{
-    max-width: 150px;
+.tech-icons {
+  max-width: 150px;
 }
 
-.school-icons{
-    max-width: 150px;
+.school-icons {
+  max-width: 150px;
 }
 
 .project-images {
-    width: 300px;
+  width: 300px;
 }
