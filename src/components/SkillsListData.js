@@ -7,7 +7,7 @@ const skillsData =[
     {
         id: 2,
         title: 'Node JS',
-        img: './images/node-tech-nobg.png',
+        img: './images/node-nobg.png',
     },
     {
         id: 3,

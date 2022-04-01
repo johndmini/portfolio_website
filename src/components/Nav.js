@@ -6,7 +6,7 @@ export default function Nav() {
         <ButtonGroup variant="contained" id='nav'>
             <Button href='#home'>HOME</Button>
             <Button href='#about'>ABOUT</Button>
-            <Button>PORTFOLIO</Button>
+            <Button href='#portfolio'>PORTFOLIO</Button>
             <Button href='#technical'>TECHNICAL & EDUCATION</Button>
             <Button disabled>RECOMMENDATION</Button>
         </ButtonGroup>
