@@ -17,7 +17,10 @@ export default function About() {
         }}
       >
         <Box sx={{ textAlign: 'center', marginRight: '80px', display: {
-          mobile: 'none'
+          mobile: 'none',
+          tablet: 'block',
+          laptop: 'block',
+          desktop: 'block',
         } }}>
           <img className="profile-pic" src="./images/profile.jpg" alt="" />
           <Typography variant="h5" color="white">
