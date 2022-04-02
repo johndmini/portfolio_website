@@ -65,7 +65,8 @@ export default function Home() {
               bottom: '2rem',
               display: {
                 mobile: 'none',
-                tablet: 'block',
+                tablet: 'none',
+                laptop: 'block',
                 desktop: 'block',
               },
             }}

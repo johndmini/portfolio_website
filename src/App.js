@@ -31,9 +31,9 @@ export default function App() {
           </Box>
           <Box
             sx={{
-              position: 'sticky',
-              top: '2rem',
-              left: '2rem',
+              position: 'fixed',
+              top: '1rem',
+              left: '1rem',
               display: {
                 tablet: 'none',
               },
