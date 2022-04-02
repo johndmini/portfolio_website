@@ -25,7 +25,14 @@ export default function About() {
           </Typography>
           <Typography variant="p">johndavid.p.delgado@gmail.com</Typography>
         </Box>
-        <Box sx={{ width: '50%', lineHeight: '30px' }}>
+        <Box sx={{ 
+          width: {
+            mobile: '100%',
+            tablet: '80%',
+            laptop: '60%',
+            desktop: '50%'
+          }, 
+          lineHeight: '30px' }}>
           <Typography variant="h5" color="white">
             About Me
           </Typography>

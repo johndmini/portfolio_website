@@ -1,9 +1,25 @@
 import React from 'react';
-
 import { theme } from '../components/styles';
-
-import { Box, Typography, IconButton, ThemeProvider } from '@mui/material';
+import {
+  Box,
+  Typography,
+  IconButton,
+  ThemeProvider,
+  createTheme,
+} from '@mui/material';
 import { LinkedIn, GitHub, ExpandCircleDownTwoTone } from '@mui/icons-material';
+
+const fontSize = createTheme();
+
+fontSize.typography.h2 = {
+  fontSize: '3.5rem',
+  '@media (max-width: 768px)': {
+    fontSize: '1.5rem,',
+  },
+  [theme.breakpoints.down('tablet')]: {
+      fontSize: '1.5rem',
+  }
+};
 
 const iconButtonStyle = {
   color: 'white',
@@ -23,7 +39,11 @@ export default function Home() {
     <ThemeProvider theme={theme}>
       <div className="nav-container" id="home">
         <Box sx={boxStyle}>
-          <Typography variant="h2">JOHN DAVID DELGADO</Typography>
+          <ThemeProvider theme={fontSize}>
+            <Box>
+              <Typography variant="h2">JOHN DAVID DELGADO</Typography>
+            </Box>
+          </ThemeProvider>
           <Typography variant="p" lineHeight="1.9em" sx={typographyStyle}>
             SOFTWARE ENGINEER
           </Typography>
