@@ -33,7 +33,7 @@ export default function App() {
             sx={{
               position: 'fixed',
               top: '1rem',
-              left: '1rem',
+              left: '0.5rem',
               display: {
                 tablet: 'none',
               },
