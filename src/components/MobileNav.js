@@ -1,22 +1,7 @@
-import React, { useState } from 'react';
-import { Menu as MenuIcon } from '@mui/icons-material';
-import { Menu, MenuItem } from '@mui/material';
-import { AppBar, Box, Toolbar, IconButton } from '@mui/material';
+import React from 'react';
+import { AppBar, Box, Toolbar, Button } from '@mui/material';
 
 export default function MobileNav() {
-  const [anchorEl, setAnchorEl] = useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = (e) => {
-    setAnchorEl(null);
-    e.preventDefault();
-    const href = e.currentTarget.getAttribute('href');
-    window.location = href;
-  };
-
   return (
     <Box
       sx={{
@@ -31,7 +16,7 @@ export default function MobileNav() {
     >
       <AppBar
         sx={{
-          width: '100px',
+          width: '350px',
           height: '50px',
           top: '8px',
           right: '10px',
@@ -39,45 +24,10 @@ export default function MobileNav() {
         }}
       >
         <Toolbar>
-          <IconButton
-            id="positioned-button"
-            aria-controls={open ? 'positioned-menu' : undefined}
-            aria-haspopup="true"
-            aria-expanded={open ? 'true' : undefined}
-            onClick={handleClick}
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Menu
-            id="posittioned-menu"
-            aria-labelledby="positioned-button"
-            anchorEl={anchorEl}
-            open={open}
-            onClose={handleClose}
-            anchorOrigin={{
-              vertical: 'top',
-              horizontal: 'left',
-            }}
-          >
-            <MenuItem href="#home" onClick={handleClose}>
-              HOME
-            </MenuItem>
-            <MenuItem href="#about" onClick={handleClose}>
-              ABOUT
-            </MenuItem>
-            <MenuItem href="#portfolio" onClick={handleClose}>
-              PORTFOLIO
-            </MenuItem>
-            <MenuItem href="#technical" onClick={handleClose}>
-              TECHNICAL & EDUCATION
-            </MenuItem>
-            <MenuItem>RECOMMENDATION</MenuItem>
-          </Menu>
+          <Button href='#home' color="inherit">Home</Button>
+          <Button href='#about' color="inherit">About</Button>
+          <Button href='#portfolio' color="inherit">Portfolio</Button>
+          <Button href='#technical' color="inherit">Technical</Button>
         </Toolbar>
       </AppBar>
     </Box>
