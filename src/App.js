@@ -15,32 +15,29 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <Box>
-        <Box>
-          <Box
-            sx={{
-              position: 'sticky',
-              top: '1rem',
-              display: {
-                mobile: 'none',
-                tablet: 'block',
-                desktop: 'block',
-              },
-            }}
-          >
-            <Nav />
-          </Box>
-          <Box
-            sx={{
-              position: 'fixed',
-              top: '1rem',
-              left: '0.5rem',
-              display: {
-                tablet: 'none',
-              },
-            }}
-          >
-            <MobileNav />
-          </Box>
+        <Box
+          sx={{
+            position: 'sticky',
+            top: '0',
+            display: {
+              mobile: 'none',
+              tablet: 'block',
+              desktop: 'block',
+            },
+          }}
+        >
+          <Nav />
+        </Box>
+        <Box
+          sx={{
+            position: 'sticky',
+            top: '0',
+            display: {
+              tablet: 'none',
+            },
+          }}
+        >
+          <MobileNav />
         </Box>
         <Home />
         <About />

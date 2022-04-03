@@ -13,9 +13,10 @@ export default function Nav() {
         right: '0',
         textAlign: 'center',
         width: '100%',
+        zIndex: '5',
       }}
     >
-      <ButtonGroup variant="contained" sx={{ width: '668px', height: '37px' }}>
+      <ButtonGroup variant="contained" >
         <Button href="#home">HOME</Button>
         <Button href="#about">ABOUT</Button>
         <Button href="#portfolio">PORTFOLIO</Button>

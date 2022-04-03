@@ -15,9 +15,9 @@ export default function MobileNav() {
   return (
     <Box
       sx={{
-        position: 'relative',
-        left: '0',
-        right: '0',
+        position: 'absolute',
+        left: '0rem',
+        top: '2rem',
         textAlign: 'left',
         width: '100%',
       }}
