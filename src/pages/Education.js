@@ -25,7 +25,7 @@ export default function EducationHistory() {
           mt: '50px',
         }}
       >
-        <Box sx={{ width: '90%', color: '#1f3a51', mb: '50px' }}>
+        <Box sx={{ width: '90%', color: '#d8ebe8', mb: '50px' }}>
           {educationHistory}
         </Box>
       </Box>

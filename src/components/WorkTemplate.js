@@ -7,9 +7,9 @@ export default function Work(props) {
       <Box>
         <Typography
           variant="subtitle1"
-          sx={{ color: 'black', fontWeight: 'bold' }}
+          sx={{ color: '#242626', fontWeight: 'bold' }}
         >
-          {props.title}
+          <em>{props.title}</em>
         </Typography>
       </Box>
       <Box>

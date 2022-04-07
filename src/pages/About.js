@@ -49,7 +49,7 @@ export default function About() {
             About Me
           </Typography>
           <Typography variant="p">
-            I am a 10 year Army Veteran with a passion for creating and problem solving. I will always be a nerd at heart and will never be bored with technology. Learning something new every day is my motivation to create and solve something new everyday. My new found passion for Software Development has awaken the child in me to keep exploring and finding joy in the little things that new challenges has to offer.
+            I am a 10 year Army Veteran with a passion for creating and problem solving. I will always be a nerd at heart and will never be bored with technology. Learning something new every day is my way to be motivated and stay motivated. My new found passion for Software Development has awaken the child in me to keep exploring and finding joy in the big and little things that new challenges has to offer. I am a self-motivated, and self-driven individual who is always looking for new challenges and new ways to solve problems.
           </Typography>
         </Box>
       </Box>

@@ -21,7 +21,6 @@ export default function Nav() {
         <Button href="#about">ABOUT</Button>
         <Button href="#portfolio">PORTFOLIO</Button>
         <Button href="#technical">TECHNICAL & EDUCATION</Button>
-        <Button disabled>RECOMMENDATION</Button>
       </ButtonGroup>
     </Box>
   );

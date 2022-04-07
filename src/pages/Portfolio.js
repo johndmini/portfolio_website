@@ -6,7 +6,7 @@ export default function Portfolio() {
     <Box sx={{ textAlign: 'center', m: '20px' }} id="portfolio">
       <Box>
         <Typography variant="h6" color="gray">
-          Check out some of my Projects
+          Check out my newest project!
         </Typography>
       </Box>
       <Box

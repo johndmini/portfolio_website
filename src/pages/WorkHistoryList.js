@@ -24,10 +24,7 @@ export default function WorkHistory() {
           mt: '50px',
         }}
       >
-        <Box sx={{ mb: '15px', color: '#d5d9e4' }}>
-          <Typography variant="h5">United States Army</Typography>
-        </Box>
-        <Box sx={{ width: '90%', color: '#1f3a51' }}>{workHistory}</Box>
+        <Box sx={{ width: '90%', color: '#d8ebe8' }}>{workHistory}</Box>
       </Box>
     </Box>
   );
