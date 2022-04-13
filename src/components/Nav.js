@@ -16,7 +16,7 @@ export default function Nav() {
         zIndex: '5',
       }}
     >
-      <ButtonGroup variant="contained" >
+      <ButtonGroup variant="contained">
         <Button href="#home">HOME</Button>
         <Button href="#about">ABOUT</Button>
         <Button href="#portfolio">PORTFOLIO</Button>
